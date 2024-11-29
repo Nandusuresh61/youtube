@@ -1,0 +1,575 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    font-family: Roboto, Arial, sans-serif;
+    
+}
+body{
+    margin: 0;
+    height: 200vh;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    z-index: 1;
+}
+.sub-head{
+    position: fixed;
+    top: 60px;
+    left: 7.5%;
+    width: 92.5%;
+    height: 55px;
+    display: flex;
+    background-color: #fff;
+    z-index: 2;
+}
+.left-section{
+    position: fixed;
+    top: 60px;
+    left: 0;
+    width: 7.5%;
+    height: 100vh;
+    background-color: #fff;
+}
+.right-section{
+    position: relative;
+    margin-top: 115px;
+    margin-left: 7.5%;
+    width: 92.5%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #fff;
+    
+}
+.home{
+    border-radius: 10%;
+    width: 73%;
+    height: 13vh;
+    cursor: pointer;
+    background-color: #fff;
+}
+.home img{
+    width: 38px;
+    height: 30px;
+    margin-top: 8px;
+    margin-left: 15px;
+}
+.home p{
+    margin: 0;
+    padding-top: 6px;
+    padding-left: 21px;
+}
+.home:hover{
+    background-color: rgba(39, 39, 39, 0.133);
+}
+.shorts{
+    border-radius: 10%;
+    width: 73%;
+    height: 13vh;
+    cursor: pointer;
+    background-color: #fff;
+}
+.shorts img{
+    width: 30px;
+    height: 25px;
+    margin-top: 8px;
+    margin-left: 19px;
+}
+.shorts p{
+    margin: 0;
+    padding-top: 6px;
+    padding-left: 21px;
+}
+.shorts:hover{
+    background-color: rgba(39, 39, 39, 0.133);
+}
+.subscribed{
+    border-radius: 10%;
+    width: 73%;
+    height: 13vh;
+    cursor: pointer;
+    background-color: #fff;
+}
+.subscribed img{
+    width: 30px;
+    height: 25px;
+    margin-top: 8px;
+    margin-left: 18px;
+}
+.subscribed p{
+    margin: 0;
+    padding-top: 6px;
+    padding-left: 3.4px;
+}
+.subscribed:hover{
+    background-color: rgba(39, 39, 39, 0.133);
+}
+.you{
+    border-radius: 10%;
+    width: 73%;
+    height: 13vh;
+    cursor: pointer;
+    background-color: #fff;
+}
+.you img{
+    width: 26px;
+    height: 26px;
+    margin-top: 13px;
+    margin-left: 20px;
+}
+.you p{
+    margin: 0;
+    padding-top: 2px;
+    padding-left: 24px;
+}
+.you:hover{
+    background-color: rgba(39, 39, 39, 0.133);
+}
+.menu img{
+    margin-left: 16px;
+    margin-top: 5px;
+    width: 40px;
+    height: 45px;
+    border-radius: 50%;
+}
+.menu img:hover{
+    background-color: rgba(39, 39, 39, 0.133);
+}
+.logo img{
+    width: 105px;
+    height: 56px;
+    margin-left: 10px;
+}
+.txt{
+    position: relative;
+    top: 10px;
+    color: rgb(88, 76, 76);
+    text-decoration: none;
+
+}
+.search-bar{
+    position: relative;
+    top: 10px;
+    left: 130px;
+    cursor: pointer;
+}
+.search-bar input{
+    width: 540px;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px; 
+    border: 1px solid rgba(39, 39, 39, 0.133);
+}
+.s-button img{
+    width: 20px;
+}
+.sb{
+    position: relative;
+    top: 10px;
+    left: 128.9px;
+    width: 65px;
+    height: 40px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border: 1px solid rgba(39, 39, 39, 0.133);
+    background-color: rgba(22, 22, 22, 0.053);
+    cursor: pointer;
+}
+.sb:hover{
+    background-color: rgba(39, 39, 39, 0.133);
+}
+.voice{
+    position: relative;
+    top: 10px;
+    left: 145px;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(22, 22, 22, 0.053);
+    border-radius: 25px;
+    cursor: pointer;
+}
+.voice:hover{
+    background-color: rgba(39, 39, 39, 0.133);;
+}
+.voice-icon{
+    width: 35px;
+    padding-top: 5px;
+    padding-left: 6px;
+    
+}
+.vdo{
+    position: relative;
+    top: 10px;
+    left: 265px;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.vdo:hover{
+    background-color: rgba(39, 39, 39, 0.133);;
+}
+.vdo-icon{
+    width: 34px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.bell{
+    position: relative;
+    top: 10px;
+    left: 275px;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.bell:hover{
+    background-color: rgba(39, 39, 39, 0.133);
+}
+.bell-icon{
+    width: 28px;
+    padding-left: 11px;
+    padding-top: 10px;
+}
+.person-icon{
+    position: relative;
+    top: 10px;
+    left: 290px;
+    width: 40px;
+    height: 40px;
+    background-color: cadetblue;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.person-icon img{
+    width: 40px;
+    padding: 10px;
+}
+.all{
+    margin: 8px 0;
+    width: 40px;
+    height: 33px;
+    border-radius: 6px;
+    background-color: rgba(22, 22, 22, 0.053);
+    cursor: pointer;
+}
+.all:hover{
+    background-color: rgba(39, 39, 39, 0.133);
+}
+.all p{
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 8px;
+    padding-left: 12px;
+}
+.gaming{
+    margin: 8px 12px;
+    width: 80px;
+    height: 33px;
+    border-radius: 6px;
+    background-color: rgba(22, 22, 22, 0.053);
+    cursor: pointer;
+}
+.gaming:hover{
+    background-color: rgba(39, 39, 39, 0.133);
+}
+.gaming p{
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 8px;
+    padding-left: 12px;
+}
+.webdevelop{
+    margin: 8px 0;
+    width: 140px;
+    height: 33px;
+    border-radius: 6px;
+    background-color: rgba(22, 22, 22, 0.053);
+    cursor: pointer;
+}
+.webdevelop:hover{
+    background-color: rgba(39, 39, 39, 0.133);
+}
+.webdevelop p{
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 8px;
+    padding-left: 12px;
+}
+.live{
+    margin: 8px 12px;
+    width: 50px;
+    height: 33px;
+    border-radius: 6px;
+    background-color: rgba(22, 22, 22, 0.053);
+    cursor: pointer;
+}
+.live:hover{
+    background-color: rgba(39, 39, 39, 0.133);
+}
+.live p{
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 8px;
+    padding-left: 12px;
+}
+.music{
+    margin: 8px 0;
+    width: 60px;
+    height: 33px;
+    border-radius: 6px;
+    background-color: rgba(22, 22, 22, 0.053);
+    cursor: pointer;
+}
+.music:hover{
+    background-color: rgba(39, 39, 39, 0.133);
+}
+.music p{
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 8px;
+    padding-left: 12px;
+}
+.mohanlal{
+    margin: 8px 12px;
+    width: 75px;
+    height: 33px;
+    border-radius: 6px;
+    background-color: rgba(22, 22, 22, 0.053);
+    cursor: pointer;
+}
+.mohanlal:hover{
+    background-color: rgba(39, 39, 39, 0.133);
+}
+.mohanlal p{
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 8px;
+    padding-left: 12px;
+}
+.malayalam{
+    margin: 8px 0;
+    width: 140px;
+    height: 33px;
+    border-radius: 6px;
+    background-color: rgba(22, 22, 22, 0.053);
+    cursor: pointer;
+}
+.malayalam:hover{
+    background-color: rgba(39, 39, 39, 0.133);
+}
+.malayalam p{
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 8px;
+    padding-left: 12px;
+}
+.mammootty{
+    margin: 8px 12px;
+    width: 95px;
+    height: 33px;
+    border-radius: 6px;
+    background-color: rgba(22, 22, 22, 0.053);
+    cursor: pointer;
+}
+.mammootty:hover{
+    background-color: rgba(39, 39, 39, 0.133);
+}
+.mammootty p{
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 8px;
+    padding-left: 12px;
+}
+.dileep{
+    margin: 8px 0;
+    width: 60px;
+    height: 33px;
+    border-radius: 6px;
+    background-color: rgba(22, 22, 22, 0.053);
+    cursor: pointer;
+}
+.dileep:hover{
+    background-color: rgba(39, 39, 39, 0.133);
+}
+.dileep p{
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 8px;
+    padding-left: 12px;
+}
+.films{
+    margin: 8px 12px;
+    width: 60px;
+    height: 33px;
+    border-radius: 6px;
+    background-color: rgba(22, 22, 22, 0.053);
+    cursor: pointer;
+}
+.films:hover{
+    background-color: rgba(39, 39, 39, 0.133);
+}
+.films p{
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 8px;
+    padding-left: 12px;
+}
+.gta{
+    margin: 8px 0;
+    width: 130px;
+    height: 33px;
+    border-radius: 6px;
+    background-color: rgba(22, 22, 22, 0.053);
+    cursor: pointer;
+}
+.gta:hover{
+    background-color: rgba(39, 39, 39, 0.133);
+}
+.gta p{
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 8px;
+    padding-left: 12px;
+}
+.news{
+    margin: 8px 12px;
+    width: 60px;
+    height: 33px;
+    border-radius: 6px;
+    background-color: rgba(22, 22, 22, 0.053);
+    cursor: pointer;
+}
+.news:hover{
+    background-color: rgba(39, 39, 39, 0.133);
+}
+.news p{
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 8px;
+    padding-left: 12px;
+}
+.arrow{
+    margin-top: 6px;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+.arrow:hover{
+    background-color: rgba(128, 128, 128, 0.171);
+}
+.arrow img{
+    padding-top: 12px;
+    padding-left: 15px;
+    width: 24px;
+    height: 25px;
+}
+.section-one{
+    display: flex;
+    cursor: pointer;
+}
+.img1{
+    position: relative;
+    width: 370px;
+    height: 208px;
+    border-radius: 25px;
+    padding: 10px;
+}
+.img2{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+.para1{
+    position: relative;
+    top: -30px;
+    left: 60px;
+}
+.p1{
+    font-size: 16px;
+}
+.p1-1{
+    padding-top: 8px;
+    font-size: 14px;
+    color: #737373;
+}
+
+.img3{
+    position: relative;
+    width: 370px;
+    height: 208px;
+    border-radius: 25px;
+    padding: 10px;
+}
+.img4{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+.para2{
+    position: relative;
+    top: -30px;
+    left: 60px;
+}
+.p2{
+    font-size: 16px;
+}
+.p2-1{
+    padding-top: 8px;
+    font-size: 14px;
+    color: #737373;
+}
+.img5{
+    position: relative;
+    width: 370px;
+    height: 208px;
+    border-radius: 25px;
+    padding: 10px;
+}
+.img6{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+.para3{
+    position: relative;
+    top: -30px;
+    left: 60px;
+}
+.p3{
+    font-size: 16px;
+}
+.p3-1{
+    padding-top: 8px;
+    font-size: 14px;
+    color: #737373;
+}
+
+.section-two{
+   display: flex;
+   cursor: pointer;
+}
+.section-three{
+    display: flex;
+    cursor: pointer;
+}
+
